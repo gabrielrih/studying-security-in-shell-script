@@ -1,0 +1,5 @@
+# Record audio
+use post/multi/manage/record_mic
+set SESSION 1
+set DURATION 10
+run

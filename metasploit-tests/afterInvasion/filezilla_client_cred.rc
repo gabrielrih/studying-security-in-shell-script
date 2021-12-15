@@ -1,0 +1,4 @@
+# Copy filezilla client credenciales
+use post/multi/gather/filezilla_client_cred
+set SESSION 1
+run

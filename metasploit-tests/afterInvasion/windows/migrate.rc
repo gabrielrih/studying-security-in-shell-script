@@ -1,0 +1,4 @@
+# Migrate malicious process
+use post/windows/manage/migrate
+set SESSION 1
+run

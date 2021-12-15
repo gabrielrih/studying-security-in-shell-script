@@ -1,0 +1,5 @@
+# Locate target position in the world
+use post/multi/gather/wlan_geolocate
+set SESSION 1
+set GEOLOCATE true
+run

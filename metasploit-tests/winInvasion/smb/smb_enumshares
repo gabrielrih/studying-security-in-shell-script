@@ -1,0 +1,7 @@
+# Show shares directory in the LAN
+use auxiliary/scanner/smb/smb_enumshares
+set RHOSTS 10.1.1.0/24
+set SMBUser Administrador
+set SMBPass 123
+set THREADS 50
+run

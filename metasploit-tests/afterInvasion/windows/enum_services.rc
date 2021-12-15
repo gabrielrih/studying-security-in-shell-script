@@ -1,0 +1,4 @@
+# Service executing in Windows
+use post/windows/gather/enum_services
+set SESSION 1
+run

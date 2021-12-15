@@ -1,0 +1,6 @@
+# Show user of the Windows device
+use auxiliary/scanner/smb/smb_lookupsid
+set SMBDomain WORKGROUP
+set RHOSTS 10.1.1.115
+set THREADS 50
+run

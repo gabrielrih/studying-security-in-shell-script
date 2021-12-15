@@ -1,0 +1,4 @@
+# Copy system informations
+use post/linux/gather/enum_system
+set SESSION 1
+run

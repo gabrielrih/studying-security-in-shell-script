@@ -1,0 +1,4 @@
+# Copy ALL network configuration (firewal, DNS, SSH, Route)
+use post/linux/gather/enum_network
+set SESSION 1
+run

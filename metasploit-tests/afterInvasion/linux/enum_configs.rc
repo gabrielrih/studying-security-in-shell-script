@@ -1,0 +1,4 @@
+# Copy ALL config files of the target
+use post/linux/gather/enum_configs
+set SESSION 1
+run

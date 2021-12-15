@@ -1,0 +1,4 @@
+# Kill antivirus
+use post/windows/manage/killav
+set SESSION 1
+run
