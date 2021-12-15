@@ -1,2 +1,2 @@
 # studying-security-in-shell-script
-Scripts de segurança da informação em Shell Script (Utilizados para estudo)
+Scripts de estudo de segurança da informação feitos em Shell Script
